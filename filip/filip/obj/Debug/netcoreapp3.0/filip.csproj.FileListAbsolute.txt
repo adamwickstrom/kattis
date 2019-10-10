@@ -1,0 +1,11 @@
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\bin\Debug\netcoreapp3.0\filip.exe
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\bin\Debug\netcoreapp3.0\filip.deps.json
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\bin\Debug\netcoreapp3.0\filip.runtimeconfig.json
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\bin\Debug\netcoreapp3.0\filip.runtimeconfig.dev.json
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\bin\Debug\netcoreapp3.0\filip.dll
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\bin\Debug\netcoreapp3.0\filip.pdb
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\obj\Debug\netcoreapp3.0\filip.csprojAssemblyReference.cache
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\obj\Debug\netcoreapp3.0\filip.AssemblyInfoInputs.cache
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\obj\Debug\netcoreapp3.0\filip.AssemblyInfo.cs
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\obj\Debug\netcoreapp3.0\filip.dll
+C:\Users\adamw\source\repos\adamwickstrom\kattis\filip\filip\obj\Debug\netcoreapp3.0\filip.pdb
