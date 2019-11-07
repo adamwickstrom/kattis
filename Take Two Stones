@@ -1,0 +1,30 @@
+using System;
+
+namespace Take_Two_Stones
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int sten = 0;
+            Console.WriteLine("Skriv in ett heltal! ");
+            sten = int.Parse(Console.ReadLine());
+
+            for (int i=0; i <1; i++)
+            { if (sten % 2 == 0)
+                {
+                    Console.WriteLine("Alice");
+                }
+
+                else
+                {
+                    Console.WriteLine("Bob");
+                }
+
+            }
+
+
+
+        }
+    }
+}
