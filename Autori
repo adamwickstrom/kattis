@@ -1,0 +1,23 @@
+using System;
+
+namespace Autori
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            
+            String str = "Knuth Morris Pratt";
+
+            string[] strSplit = str.Split();
+            foreach (string res in strSplit)
+            {
+                Console.Write(res.Substring(0, 1));
+
+            }
+            
+
+        }
+    }
+}
