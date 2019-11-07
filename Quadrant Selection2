@@ -1,0 +1,35 @@
+using System;
+
+namespace Quadrant_Selection
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int x,y=0;
+
+            Console.WriteLine("Skriv in en x koordinat!:" );
+                 x = int.Parse(Console.ReadLine());
+            Console.WriteLine("Skriv in en y koordinat!; ");
+                 y = int.Parse(Console.ReadLine());
+
+           switch(x,y)
+           {
+                case x > 0:
+                case y > 0: Console.WriteLine("Kvadrant 1!"); break;
+
+                case x < 0:
+                case y < 0: Console.WriteLine("Kvadrant 4!"); break;
+                
+                case x > 0:
+                case y < 0: Console.WriteLine("Kvadrant 3!"); break;
+                
+                case x < 0:
+                case y > 0: Console.WriteLine("Kvadrant 2!"); break;
+
+
+            }
+
+        }
+    }
+}
