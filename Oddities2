@@ -1,0 +1,48 @@
+using System;
+
+namespace Oddities2
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            
+            int[] tal = new int[4];
+
+            Console.WriteLine("skriv in fyra tal! ");
+            tal[0] = int.Parse(Console.ReadLine());
+            tal[1] = int.Parse(Console.ReadLine());
+            tal[2] = int.Parse(Console.ReadLine());
+            tal[3] = int.Parse(Console.ReadLine());
+
+            if((tal[0]*tal[1]) %2 != 0 )
+            {
+                Console.WriteLine(tal[1] + " är ojämnt");
+            }
+                else
+            {
+                Console.WriteLine(tal[1] + " är jämnt");
+            }
+            
+            if ((tal[0] * tal[2]) %2 != 0)
+            {
+                Console.WriteLine(tal[2] + " är ojämnt");
+            }
+            else
+            {
+                Console.WriteLine(tal[2] + " är jämnt");
+            }
+
+
+            if ((tal[0] * tal[3])%2 != 0)
+            {
+                Console.WriteLine(tal[3] + " är ojämnt");
+            }
+            else
+            {
+                Console.WriteLine(tal[3] + " är jämnt");
+            }
+        }
+
+    }
+}
