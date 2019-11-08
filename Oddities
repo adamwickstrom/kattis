@@ -1,0 +1,83 @@
+using System;
+
+namespace Oddities
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Skriv in fyra heltal");
+            int k = int.Parse(Console.ReadLine());
+            int tal1 = int.Parse(Console.ReadLine());
+            int tal2 = int.Parse(Console.ReadLine());
+            int tal3 = int.Parse(Console.ReadLine());
+
+            
+            if ((k * tal1)%2 == 0 && (k*tal2)%2 == 0 && (k*tal3)%2==0 )
+                {
+                    Console.WriteLine(tal1 + " är jämnt");
+                    Console.WriteLine(tal2 + " är jämnt");
+                    Console.WriteLine(tal3 + " är jämnt");
+                }
+                else if ((k * tal1) % 2 != 0 && (k * tal2) % 2 != 0 && (k * tal3) % 2 != 0)
+                {
+                    Console.WriteLine(tal1 + " är ojämnt");
+                    Console.WriteLine(tal2 + " är ojämnt");
+                    Console.WriteLine(tal3 + " är ojämnt");
+                }
+                else if ((k * tal1) % 2 != 0 && (k * tal2) % 2 == 0 && (k * tal3) % 2 == 0)
+                {
+                    Console.WriteLine(tal1 + " är ojämnt");
+                    Console.WriteLine(tal2 + " är jämnt");
+                    Console.WriteLine(tal3 + " är jämnt");
+                }
+                else if ((k * tal1) % 2 != 0 && (k * tal2) % 2 != 0 && (k * tal3) % 2 == 0)
+                {
+                    Console.WriteLine(tal1 + " är ojämnt");
+                    Console.WriteLine(tal2 + " är ojämnt");
+                    Console.WriteLine(tal3 + " är jämnt");
+                }
+                else if ((k * tal1) % 2 == 0 && (k * tal2) % 2 != 0 && (k * tal3) % 2 == 0)
+                {
+                    Console.WriteLine(tal1 + " är jämnt");
+                    Console.WriteLine(tal2 + " är ojämnt");
+                    Console.WriteLine(tal3 + " är jämnt");
+                }
+                else if ((k * tal1) % 2 != 0 && (k * tal2) % 2 == 0 && (k * tal3) % 2 != 0)
+                {
+                    Console.WriteLine(tal1 + " är ojämnt");
+                    Console.WriteLine(tal2 + " är jämnt");
+                    Console.WriteLine(tal3 + " är ojämnt");
+                }
+                else if ((k * tal1) % 2 == 0 && (k * tal2) % 2 != 0 && (k * tal3) % 2 != 0)
+                {
+                    Console.WriteLine(tal1 + " är jämnt");
+                    Console.WriteLine(tal2 + " är ojämnt");
+                    Console.WriteLine(tal3 + " är ojämnt");
+                }
+                else if ((k * tal1) % 2 != 0 && (k * tal2) % 2 == 0 && (k * tal3) % 2 == 0)
+                {
+                    Console.WriteLine(tal1 + " är ojämnt");
+                    Console.WriteLine(tal2 + " är jämnt");
+                    Console.WriteLine(tal3 + " är jämnt");
+                }
+                else if ((k * tal1) % 2 != 0 && (k * tal2) % 2 == 0 && (k * tal3) % 2 == 0)
+                {
+                    Console.WriteLine(tal1 + " är ojämnt");
+                    Console.WriteLine(tal2 + " är jämnt");
+                    Console.WriteLine(tal3 + " är jämnt");
+                }
+                else if ((k * tal1) % 2 != 0 && (k * tal2) % 2 == 0 && (k * tal3) % 2 != 0)
+                {
+                    Console.WriteLine(tal1 + " är ojämnt");
+                    Console.WriteLine(tal2 + " är jämnt");
+                    Console.WriteLine(tal3 + " är ojämnt");
+                }
+            
+            
+
+
+
+        }
+    }
+}
