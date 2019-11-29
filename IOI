@@ -1,0 +1,104 @@
+using System;
+
+namespace sdafghjklö_
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            int deltagare = 0;
+            Console.WriteLine("skriv in antal deltagare, tack!");
+            deltagare = int.Parse(Console.ReadLine());
+
+            if (deltagare == 0)
+            {
+                Console.WriteLine("0 öar");
+            }
+
+            else if (deltagare == 1)
+            {
+                Console.WriteLine("1 öar");
+            }
+
+            else if (deltagare == 2)
+            {
+                Console.WriteLine("2 öar");
+            }
+
+            else if (deltagare >= 3 && deltagare <= 4)
+            {
+                Console.WriteLine("3 öar");
+            }
+            else if (deltagare >= 5 && deltagare <= 7)
+            {
+                Console.WriteLine("4 öar");
+            }
+            else if (deltagare >= 8 && deltagare <= 12)
+            {
+                Console.WriteLine("5 öar");
+            }
+            else if (deltagare >= 13 && deltagare <= 20)
+            {
+                Console.WriteLine("6 öar");
+            }
+            else if (deltagare >= 21 && deltagare <= 33)
+            {
+                Console.WriteLine("7 öar");
+            }
+            else if (deltagare >= 34 && deltagare <= 54)
+            {
+                Console.WriteLine("8 öar");
+            }
+            else if (deltagare >= 55 && deltagare <= 88)
+            {
+                Console.WriteLine("9 öar");
+            }
+            else if (deltagare >= 89 && deltagare <= 143)
+            {
+                Console.WriteLine("10 öar");
+            }
+            else if (deltagare >= 144 && deltagare <= 232)
+            {
+                Console.WriteLine("11 öar");
+            }
+            else if (deltagare >= 233 && deltagare <= 376)
+            {
+                Console.WriteLine("12 öar");
+            }
+            else if (deltagare >= 377 && deltagare <= 609)
+            {
+                Console.WriteLine("13 öar");
+            }
+            else if (deltagare >= 610 && deltagare <= 986)
+            {
+                Console.WriteLine("14 öar");
+            }
+            else if (deltagare >= 987 && deltagare <= 1596)
+            {
+                Console.WriteLine("15 öar");
+            }
+            else if (deltagare >= 1597 && deltagare <= 2583)
+            {
+                Console.WriteLine("16 öar");
+            }
+            else if (deltagare >= 2584 && deltagare <= 4180)
+            {
+                Console.WriteLine("17 öar");
+            }
+            else if (deltagare >= 4181 && deltagare <= 6764)
+            {
+                Console.WriteLine("18 öar");
+            }
+            else if (deltagare >= 6765 && deltagare <= 10001)
+            {
+                Console.WriteLine("19 öar");
+            }
+
+            else
+            {
+                Console.WriteLine("nä nu blev det för många");
+            }
+
+        }
+    }
+}
